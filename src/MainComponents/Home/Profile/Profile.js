@@ -28,11 +28,11 @@ function Profile(props) {
               <h1 className="type-animation">
                 <TypeAnimation
                   sequence={[
-                    "AI Engineer📚",
+                    "AI Engineer🤖",
                     1000,
                     "NLP Engineer✨",
                     1000,
-                    "CV Engineer🔍",
+                    "CV Engineer🧿",
                     1000,
                     "Web Developer🌐",
                     1000,

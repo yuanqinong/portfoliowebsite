@@ -1,9 +1,10 @@
-import Profile from "./MainComponents/Home/Profile";
+import "./App.css";
+import MainComponents from "./MainComponents/MainComponents";
 
 function App() {
   return (
     <div className="App">
-      <Profile/>
+      <MainComponents/>
     </div>
   );
 }
