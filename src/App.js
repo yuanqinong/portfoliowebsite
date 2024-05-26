@@ -1,10 +1,10 @@
 import "./App.css";
-import MainComponents from "./MainComponents/MainComponents";
+import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
 
 function App() {
   return (
     <div className="App">
-      <MainComponents/>
+      <PortfolioContainer/>
     </div>
   );
 }

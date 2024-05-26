@@ -5,6 +5,7 @@
   text-align: center;
   height: 10%;
   min-height: fit-content;
+  min-height: moz-fit-content;
 }
 
 .profile-parent {
