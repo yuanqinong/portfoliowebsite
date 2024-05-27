@@ -16,5 +16,10 @@
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
-  --loader-color: #0CBFAE
+  --loader-color: #0CBFAE;
+  --theme-black: #0b0c10;
+  --theme-black-light: #1f2833;
+  --theme-black-lighter: #c5c6c7;
+  --theme-tiffany-blue: #66fcf1;
+  --theme-tiffany-blue-dark: #45a29e;
 }

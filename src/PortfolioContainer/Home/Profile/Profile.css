@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   color: aliceblue;
+  margin-bottom: 200px;
 }
 
 .profile-details-name{
@@ -118,7 +119,7 @@
     }
     .profile-parent{
         flex-direction: column-reverse;
-        margin: 40px 0 0 0;
+        margin: 40px 0 20px 0;
     }
     .profile-options{
         display: flex;

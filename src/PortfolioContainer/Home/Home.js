@@ -10,7 +10,6 @@ export default function Home(props) {
     <div className="home-container" id={props.id || ""}>
       <Header />
       <Profile />
-      <Footer />
     </div>
   );
 }

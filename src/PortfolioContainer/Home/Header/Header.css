@@ -1,8 +1,9 @@
+@import '../../../App.css'; 
 .header-container {
   display: flex;
   justify-content: center;
   height: 149px;
-  color: var(--white);
+  color: var(--theme-tiffany-blue-dark);
 }
 .header-parent {
   display: flex;
@@ -15,7 +16,7 @@
 .header-logo {
   font-size: 50px;
   font-family: "Poppins ExtraBold";
-  color: var(--white);
+  color: var(--theme-tiffany-blue);
 }
 .header-options {
   display: flex;
