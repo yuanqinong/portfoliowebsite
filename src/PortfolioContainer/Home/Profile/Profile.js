@@ -1,8 +1,12 @@
 import React from "react";
 import "./Profile.css";
+import toast, { Toaster } from 'react-hot-toast';
 import { TypeAnimation } from "react-type-animation";
 
 function Profile(props) {
+  const download_resume = () => toast('Thanks for viewing my resume!',{
+    icon:'🙇‍♂️',
+  });
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -51,10 +55,14 @@ function Profile(props) {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">Hire Me</button>
-            <a href="Resume_OngYuanQin.pdf" download="Resume_OngYuanQin.pdf">
+            <button className="btn primary-btn" >Hire Me</button>
+            <a href="Resume_OngYuanQin.pdf" download="Resume_OngYuanQin.pdf" onClick={download_resume}>
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
+            <Toaster
+            position="top-left"
+            reverseOrder={false}
+            />
           </div>
         </div>
         <div className="profile-image">

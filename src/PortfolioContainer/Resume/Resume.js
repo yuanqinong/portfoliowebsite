@@ -83,14 +83,14 @@ const Resume = (props) => {
         fromDate={"2019"}
         toDate={"2022"}
       />
-      <span>CGPA: 3.96</span>
+      <span className="resume-cgpa">CGPA: 3.96</span>
       <ResumeHeading
         heading={"Multimedia University"}
         subHeading={"Foundation in Information Technology"}
         fromDate={"2018"}
         toDate={"2019"}
       />
-      <span>CGPA: 3.77</span>
+      <span className="resume-cgpa">CGPA: 3.77</span>
     </div>,
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
