@@ -22,7 +22,7 @@
   background-position: center;
 }
 .about-me-details {
-  width: 48%;
+  width: 50%;
   text-align: justify;
   padding: 30px;
   color: var(--theme-black-lighter);
