@@ -9,7 +9,6 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import Footer from "../../PortfolioContainer/footer/Footer";
-import Form from "./Form";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
@@ -105,7 +104,31 @@ export default function ContactMe(props) {
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="image not found" />
           </div>
-        <Form />
+          <form onSubmit={submitForm}>
+            <p>{banner}</p>
+            <label htmlFor="name">Name</label>
+            <input type="text" onChange={handleName} value={name} />
+
+            <label htmlFor="email">Email</label>
+            <input type="email" onChange={handleEmail} value={email} />
+
+            <label htmlFor="message">Message</label>
+            <textarea type="text" onChange={handleMessage} value={message} />
+
+            <div className="send-btn">
+              <button type="submit">
+                send
+                <i className="fa fa-paper-plane" />
+                {bool ? (
+                  <b className="load">
+                    <img src={load1} alt="image not responding" />
+                  </b>
+                ) : (
+                  ""
+                )}
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <Footer />
