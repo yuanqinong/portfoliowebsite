@@ -1,3 +1,22 @@
-.portfolio-container{
-    background-color: #081229;
+.portfolio-container {
+  background-color: #081229;
+  min-height: 330vh;
+}
+
+@media only screen and (max-width: 1280px) {
+  .portfolio-container {
+    min-height: 390vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .portfolio-container {
+    min-height: 250vh;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .portfolio-container {
+    min-height: 280vh;
+  }
 }
