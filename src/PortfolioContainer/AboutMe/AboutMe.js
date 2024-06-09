@@ -58,7 +58,7 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
-                Hire Me
+                Contact Me
               </button>
               <a href="Resume_OngYuanQin.pdf" download="Resume_OngYuanQin.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>

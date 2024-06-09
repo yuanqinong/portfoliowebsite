@@ -2,6 +2,7 @@ import React from "react";
 import "./Profile.css";
 import toast, { Toaster } from 'react-hot-toast';
 import { TypeAnimation } from "react-type-animation";
+import ScrollService from "../../../utilities/ScrollService";
 
 function Profile(props) {
   const download_resume = () => toast('Thanks for viewing my resume!',{
@@ -55,12 +56,12 @@ function Profile(props) {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn" >Hire Me</button>
+            <button className="btn primary-btn" onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>Contact Me</button>
             <a href="Resume_OngYuanQin.pdf" download="Resume_OngYuanQin.pdf" onClick={download_resume}>
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
             <Toaster
-            position="top-left"
+            position="top-center"
             reverseOrder={false}
             />
           </div>

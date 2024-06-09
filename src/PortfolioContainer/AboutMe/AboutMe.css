@@ -5,14 +5,18 @@
   align-items: center;
   margin: 50px 0 0 0;
 }
+
 .about-me-parent {
   max-width: 1000px;
   width: 70%;
+  margin-top: 100px;
 }
+
 .about-me-card {
   display: flex;
   width: 100%;
   box-shadow: 0 0px 20px -2px var(--theme-tiffany-blue);
+  margin-top: 100px;
 }
 .about-me-profile {
   width: 50%;

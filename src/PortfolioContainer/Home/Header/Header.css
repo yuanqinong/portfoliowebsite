@@ -2,8 +2,14 @@
 .header-container {
   display: flex;
   justify-content: center;
-  height: 149px;
+  height: auto;
   color: var(--theme-tiffany-blue-dark);
+  position: fixed; /* Add this line */
+  top: 0; /* Add this line */
+  left: 0; /* Add this line */
+  right: 0; /* Add this line */
+  z-index: 999; /* Add this line */
+  background-color: var(--theme-black-light);
 }
 .header-parent {
   display: flex;
@@ -36,7 +42,7 @@
   color: var(--white);
 }
 .selected-header-option {
-  color: var(--dark-orange);
+  color: var(--theme-tiffany-blue);
 }
 
 /*IPAD PRO RESPONSIVENESS*/
