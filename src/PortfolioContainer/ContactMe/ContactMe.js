@@ -46,21 +46,17 @@ export default function ContactMe(props) {
                 repeat={Infinity}
               />
             </h2>{" "}
-            <a href="https://web.facebook.com/?_rdc=1&_rdr">
-              <i className="fa fa-facebook-square" />
-            </a>
-            <a href="#">
-              <i className="fa fa-google-plus-square" />
-            </a>
-            <a href="https://www.instagram.com/instructor_ehizeex/">
-              <i className="fa fa-instagram" />
-            </a>
-            <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-              <i className="fa fa-youtube-square" />
-            </a>
-            <a href="https://twitter.com/Ehiedu_baba">
-              <i className="fa fa-twitter" />
-            </a>
+            <div className="colz-icon">
+              <a href="https://www.linkedin.com/in/ong-yuan-qin/" target="_blank" rel="noreferrer">
+                <i className="bi bi-linkedin"></i>
+              </a>
+              <a href="https://wa.me/60137698311" target="_blank" rel="noreferrer">
+                <i className="bi bi-whatsapp"></i>
+              </a>
+              <a href="https://github.com/yqfffs" target="_blank" rel="noreferrer">
+                <i className="bi bi-github"></i>
+              </a>
+            </div>
           </div>
           <div className="back-form">
             <div className="img-back">

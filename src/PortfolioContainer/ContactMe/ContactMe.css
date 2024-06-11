@@ -132,11 +132,16 @@ button .load img {
   width: 60px;
   color: green;
 }
-.col i {
-  padding: 7px;
-  color: #fff;
+
+.col .colz-icon i{
+  color: white;
+  padding: 19px;
+  padding-left: 0px;
+  transition: 0.5s ease-in-out; 
+  display: inline-block;
 }
-.col i:hover {
+
+.col .colz-icon i:hover{
   transform: scale(1.5);
 }
 

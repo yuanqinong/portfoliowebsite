@@ -1,5 +1,5 @@
 .portfolio-container {
-  background-color: #081229;
+  background: radial-gradient(circle, #081229, #0a1736);
   min-height: 370vh;
 }
 @media only screen and (max-width: 1344px) {
@@ -9,7 +9,7 @@
 }
 @media only screen and (max-width: 1280px) {
   .portfolio-container {
-    min-height: 390vh;
+    min-height: 500vh;
   }
 }
 
